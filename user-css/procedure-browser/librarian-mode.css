@@ -1,0 +1,7 @@
+/* A user stylesheet to overide author CSS, making components marked as librarian-only visible */
+body header .uk-parliament-procedure-browser-librarian-only {
+	display: inline-block !important;
+}
+body main .uk-parliament-procedure-browser-librarian-only {
+	display: inline-block !important;
+}
