@@ -7,6 +7,6 @@ body main .uk-parliament-procedure-browser-librarian-only {
 }
 
 /* Places a yellow stripe down the left of the page to indicate librarian mode */
-body {
+body.uk-parliament-procedure-browser {
 	border-left: 1em solid yellow;
 }
