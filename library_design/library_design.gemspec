@@ -24,9 +24,11 @@ Gem::Specification.new do |s|
   }
 
   # Ignore all the other stuff
-  s.files         = Dir["{app,lib}/**/*", "README.md"]
+  s.files         = Dir["{app,lib,config}/**/*", "README.md"]
   s.require_paths = ["lib"]
   s.required_ruby_version = '>= 3.4.4'
+  # To make CORS configuration easier and handle it in Rack middleware
+  s.add_dependency('rack-cors', '~> 3.0.0')
 
   s.post_install_message = %q{
     [LIBRARY DESIGN] - now you've installed this, you can include the partials and stylesheets
