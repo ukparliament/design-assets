@@ -1,4 +1,4 @@
-module DesignSystemGem
+module LibraryDesign
 	module Crumbs extend ActiveSupport::Concern
 		included do
 			before_action :create_crumb_container
