@@ -13,5 +13,9 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     resource %r{/fonts/.*\.(woff|woff2|ttf|eot|otf)$},
             headers: :any,
             methods: [:get, :head, :options]
+
+    resource %r{/assets/.*\.(woff|woff2|ttf|eot|otf)$},
+            headers: :any,
+            methods: [:get, :head, :options]
   end
 end
