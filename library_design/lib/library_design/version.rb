@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module LibraryDesign
-  VERSION = "0.1.6".freeze
+  VERSION = "0.1.8".freeze
 end
