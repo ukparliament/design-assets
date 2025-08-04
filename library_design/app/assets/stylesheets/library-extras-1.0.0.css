@@ -10,6 +10,42 @@ nav#header-nav a:hover {
 	border-bottom-color: #fff;
 }
 
+
+/* Styling for secondary navigation */
+.subnav {
+	border-color: #cbc9cd;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	margin-bottom: 1em;
+}
+.subnav a {
+	border-bottom: 4px #fff solid;
+	color: #2b57ab;
+	display: inline-block;
+	text-decoration: none;
+  	margin-right: 0.2rem;
+  	padding:0 0.2rem;
+}
+.subnav a:hover {
+	border-bottom-color: #cbc9cd;
+}
+
+
+/* Styling for striped tables */
+tbody tr:nth-child(2n) {
+	background-color: #efefef;
+}
+
+
+/* Styling for multibody tables */
+table.multibody tbody {
+	border-bottom: 2px solid #bbb;
+}
+table.multibody tbody:last-child {
+	border-bottom-width: 0;
+}
+
+
 /* Styling for key value pair tables */
 table.key-value td {
 	border: 1px solid #ddd;
@@ -21,16 +57,7 @@ table.key-value td:nth-child(2) {
 	width: 70%;
 }
 
-/* Styling for tables */
-tbody tr:nth-child(2n) {
-	background-color: #efefef;
-}
-table.multibody tbody {
-	border-bottom: 2px solid #bbb;
-}
-table.multibody tbody:last-child {
-	border-bottom-width: 0;
-}
+
 
 
 
