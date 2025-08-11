@@ -31,6 +31,63 @@ nav#header-nav a:hover {
 }
 
 
+/* Styling for tables */
+table {
+	width: 100%;
+}
+th, td {
+	padding: .3em;
+}
+
+
+/* Styling for table heads */
+thead {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+body.brand-general thead {
+	background-color: #625a75;
+}
+body.brand-commons thead {
+	background-color: #006548;
+}
+body.brand-lords thead {
+	background-color: rgb(156.7078947368, 7.7921052632, 48.4842105263);
+}
+body.brand-bicameral thead {
+	background-color: #625a75;
+}
+
+
+/* Styling for sortable tables */
+table.sortable th {
+	padding: 0;
+}
+table.sortable thead a {
+	background-image: url('/sort.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: block;
+	padding: .3em .3em .3em 1.5em;
+  	text-decoration: none;
+}
+table.sortable thead .number a {
+	background-position: right;
+	padding-right: 1.5em;
+}
+table.sortable thead a:focus {
+	background-color: inherit;
+}
+table.sortable.sorted-ascending thead th a.sorted {
+	background-image: url('/sort-up.png');
+}
+table.sortable.sorted-descending thead th a.sorted {
+	background-image: url('/sort-down.png');
+}
+
+
 /* Styling for striped tables */
 tbody tr:nth-child(2n) {
 	background-color: #efefef;
@@ -58,7 +115,12 @@ table.key-value td:nth-child(2) {
 }
 
 
-
-
-
-
+/* Styling for numeric fields in tables */
+th.number, td.number {
+	text-align: right;
+}
+td.number {
+	font-family: ui-monospace, monospace;
+	font-size: 85%;
+	letter-spacing: -0.4px;
+}
