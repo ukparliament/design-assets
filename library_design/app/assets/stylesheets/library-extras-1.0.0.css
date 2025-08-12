@@ -124,3 +124,21 @@ td.number {
 	font-size: 85%;
 	letter-spacing: -0.4px;
 }
+
+
+/* Styling for feeds */
+#feeds a {
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-right: .8em;
+}
+#feeds a.rss {
+	background-image: url('/rss.svg');
+	background-size: 3em;
+	padding-left: 2em;
+}
+#feeds a.csv {
+	background-image: url('/csv.png');
+	background-size: 1em;
+	padding-left: 1.2em;
+}
