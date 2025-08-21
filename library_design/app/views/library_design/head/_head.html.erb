@@ -20,6 +20,9 @@
 <%= render 'library_design/library_design_stylesheets' %>
 <%= stylesheet_link_tag "application" %>
 
+<%= tag( 'link', :href => @previous_url, :rel => 'prev' ) if @previous_url %>
+<%= tag( 'link', :href => @next_url, :rel => 'next' ) if @next_url %>
+
 <%= tag( 'link', :rel => 'alternate', :href => @csv_url, :type => 'text/csv' ) if @csv_url %>
 <%= tag( 'link', :rel => 'alternate', :href => @rss_url, :type => 'application/rss+xml' ) if @rss_url %>
 
