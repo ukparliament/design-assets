@@ -127,6 +127,19 @@ td.number {
 }
 
 
+/* Styling for previous and next links */
+.previous-next {
+	list-style: none;
+	padding: 0 0 2em 0;
+}
+.previous-next .previous {
+	float: left;
+}
+.previous-next .next {
+	float: right;
+}
+
+
 /* Styling for feeds */
 #feeds a {
 	background-position: left;
