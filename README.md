@@ -3,52 +3,49 @@
 The design assets Ruby gem allows for customisation over the UK Parliament design system: https://designsystem.parliament.uk
 
 
-## Updating the design assets gem
+## Updating the design assets gem for a new version
 
 
-in design assets
+1. Having checked out the latest version of this repository, 
 
-git checkout -b add-test-helper
+2. git checkout -b add-test-helper
 
-add and edit stuff
+3. add and edit stuff
 
-Usually library-extras
+4. Usually library-extras
 
+5. /lib/library_design/version.rb
 
-/lib/library_design/version.rb
+6. change version number
 
-change version number
+7. Commons Library Heroku google spreadsheet
 
+8. git add and commit
 
-Commons Library Heroku google spreadsheet
+9. still on branch
 
+10. gh pr create
 
-git add and commit
+11. defaults, submit
 
+12. pull request on github
 
-still on branch
+13. merge and confirm
 
-gh pr create
+14. git checkout main, pull
 
+15. releases, draft a new release
 
-defaults, submit
+16. create new tag
 
-
-pull request on github
-
-merge and confirm
-
-git checkout main, pull
-
-releases, draft a new release
-
-create new tag
-
-new release
+17. new release
 
 -------
-go into app, update version in gemfile
 
-branch to install new version, back to main
+## Updating the design assets gem within an application
 
-bundle update before pull for update
+1. go into app, update version in gemfile
+
+2. branch to install new version, back to main
+
+3. bundle update before pull for update
