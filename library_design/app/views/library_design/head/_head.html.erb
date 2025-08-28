@@ -1,7 +1,6 @@
 <meta charset="utf-8">
 
-<%= content_tag( 'title', @page_title || $SITE_TITLE ) %>
-<%= tag( 'meta', :name => 'description', :content => @description ) %>
+<%= render 'library_design/head/metadata' %>
 
 <%= csrf_meta_tags %>
 <%= csp_meta_tag %>
