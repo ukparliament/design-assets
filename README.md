@@ -37,4 +37,4 @@ The design assets Ruby gem allows for customisation over the UK Parliament desig
 
 2. You can branch to install new version, then return back to main.
 
-3. Remeber to <code>bundle update</code> before pulling.
+3. You can <code>bundle update</code> before pulling.
