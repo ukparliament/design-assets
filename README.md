@@ -1,9 +1,9 @@
-# Design assets gem workflow
+# Design assets
 
 The design assets Ruby gem allows for customisation over the UK Parliament design system: https://designsystem.parliament.uk
 
 
-
+## Updating the design assets gem
 
 
 in design assets
