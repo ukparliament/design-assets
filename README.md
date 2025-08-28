@@ -1,3 +1,11 @@
+# Design assets gem workflow
+
+The design assets Ruby gem allows for customisation over the UK Parliament design system: https://designsystem.parliament.uk
+
+
+
+
+
 in design assets
 
 git checkout -b add-test-helper
