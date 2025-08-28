@@ -2,9 +2,10 @@
 
 The design assets Ruby gem allows for customisation over the UK Parliament design system: https://designsystem.parliament.uk
 
+<mark>To edit the content of the design assets gem, you need to have write access to this repository.</mark>
 
-## Updating the design assets gem for a new version
 
+## Updating the content of the design assets gem
 
 1. Having checked out the latest version of this repository, 
 
