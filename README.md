@@ -7,46 +7,34 @@ The design assets Ruby gem allows for customisation over the UK Parliament desig
 
 ## Updating the content of the design assets gem
 
-1. Having checked out the latest version of this repository, 
+1. Check out the latest version of this repository, or <code>git pull</code> on your existing local repo.
 
-2. git checkout -b add-test-helper
+2. Create a new branch for your changes to the code: <code>git checkout -b my-useful-branch-name</code>.
 
-3. add and edit stuff
+3. Edit the content: you'll usually be making changes to the library-extras CSS: <code>/design-assets/library_design/app/assets/stylesheets/library-extras-1.0.0.css</code>
 
-4. Usually library-extras
+4. Update the version number at <code>/design-assets/library_design/lib/library_design/version.rb</code>.
 
-5. /lib/library_design/version.rb
+5. Update the Commons Library Heroku Google spreadsheet.
 
-6. change version number
+6. Add and commit your changes to your branch.
 
-7. Commons Library Heroku google spreadsheet
+7. Create a pull request on GitHub: you can use the GitHub command line tool - <code>gh pr create</code>. You can usually accept the defaults offered, then submit.
 
-8. git add and commit
+8. Find the pull request you just made on the GitHub site: merge and confirm the request when you're happy with it.
 
-9. still on branch
+9. Back in your local repository, <code>git checkout main</code> and  <code>pull</code>.
 
-10. gh pr create
+10. On the GitHub page for the repo, select Releases on the right hand side and draft a new release.
 
-11. defaults, submit
+11. Create a new tag and generate a new release.
 
-12. pull request on github
 
-13. merge and confirm
-
-14. git checkout main, pull
-
-15. releases, draft a new release
-
-16. create new tag
-
-17. new release
-
--------
 
 ## Updating the design assets gem within an application
 
-1. go into app, update version in gemfile
+1. In your Ruby application, update the <code>gemfile</code> to point to the new gem version.
 
-2. branch to install new version, back to main
+2. You can branch to install new version, then return back to main.
 
-3. bundle update before pull for update
+3. Remeber to <code>bundle update</code> before pulling.
