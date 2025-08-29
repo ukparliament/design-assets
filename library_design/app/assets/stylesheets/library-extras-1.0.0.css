@@ -127,6 +127,15 @@ td.number {
 }
 
 
+/* Styling for unnumbered ordered lists */
+ol.unnumbered {
+	padding: 0;
+}
+ol.unnumbered li {
+	list-style: none;
+}
+
+
 /* Styling for previous and next links */
 .previous-next {
 	list-style: none;
