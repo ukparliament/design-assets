@@ -16,7 +16,7 @@
 <%= tag( 'link', :rel => 'icon', :href => '/icon.svg', :type => 'image/svg+xml' ) %>
 <%= tag( 'link', :rel => 'apple-touch-icon', :href => '/icon.png' ) %>
 
-<%= render 'library_design/library_design_stylesheets' %>
+<%= render 'library_design/head/library_design_stylesheets' %>
 <%= stylesheet_link_tag "application" %>
 
 <%= tag( 'link', :href => @previous_url, :rel => 'prev' ) if @previous_url %>
