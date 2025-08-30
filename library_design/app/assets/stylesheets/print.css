@@ -1,0 +1,17 @@
+/* Strip out the header */
+header {
+	display: none;
+}
+
+
+/* Unbranded table heads */
+thead td {
+	border: 1px #000 solid;
+	color: #000;
+}
+
+
+/* Strip out the footer */
+footer {
+	display: none;
+}
