@@ -11,6 +11,14 @@ nav#header-nav a:hover {
 }
 
 
+/* Styling to for subheads in multiline h1 titles */
+h1 span[class="subhead"] {
+	display: block;
+	font-size: .7em;
+	font-weight: normal;
+}
+
+
 /* Styling for secondary navigation */
 .subnav {
 	border-color: #cbc9cd;
