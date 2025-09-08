@@ -11,6 +11,12 @@ thead td {
 }
 
 
+/* Strip out feeds */
+#feeds {
+	display: none;
+}
+
+
 /* Strip out the footer */
 footer {
 	display: none;

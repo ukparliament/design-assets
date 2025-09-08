@@ -5,6 +5,7 @@ nav#header-nav {
 nav#header-nav a {
 	border-bottom: 3px #373151 solid;
 	margin-right: 10px;
+	padding: .5em 0 .2em 0;
 }
 nav#header-nav a:hover {
 	border-bottom-color: #fff;
@@ -32,7 +33,7 @@ h1 span[class="subhead"] {
 	display: inline-block;
 	text-decoration: none;
   	margin-right: 0.2rem;
-  	padding:0 0.2rem;
+  	padding: .5em 0 .2em 0;
 }
 .subnav a:hover {
 	border-bottom-color: #cbc9cd;
