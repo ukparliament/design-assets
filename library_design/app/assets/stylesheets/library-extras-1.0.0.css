@@ -4,6 +4,7 @@ nav#header-nav {
 }
 nav#header-nav a {
 	border-bottom: 3px #373151 solid;
+	display: inline-block;
 	margin-right: 10px;
 	padding: .5em 0 .2em 0;
 }
