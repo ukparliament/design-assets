@@ -175,3 +175,20 @@ ol.unnumbered li {
 	background-size: 1em;
 	padding-left: 1.2em;
 }
+
+
+/* Styling for the debug panel to show page title and description in development */
+div.debug {
+	background: yellow;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+div.debug tr {
+	background: transparent;
+}
+div.debug td {
+	border-color: #000;
+}
+
+
