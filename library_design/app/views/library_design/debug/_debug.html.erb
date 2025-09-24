@@ -1,0 +1,17 @@
+<% if Rails.env.development? -%>
+	<div class="debug">
+		<%= content_tag( 'h2', 'Debug' ) %>
+		<table class="table key-value">
+			<tbody>
+				<tr>
+					<%= content_tag( 'td', 'Page title' ) %>
+					<%= content_tag( 'td', @page_title ) %>
+				</tr>
+				<tr>
+					<%= content_tag( 'td', 'Description' ) %>
+					<%= content_tag( 'td', @description ) %>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+<% end -%>
