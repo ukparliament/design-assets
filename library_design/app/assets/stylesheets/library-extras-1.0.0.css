@@ -159,6 +159,12 @@ ol.unnumbered li {
 }
 
 
+/* Styling for sections */
+section {
+	margin-bottom: 1em;
+}
+
+
 /* Styling for feeds */
 #feeds a {
 	background-position: left;
