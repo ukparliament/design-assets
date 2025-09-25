@@ -137,6 +137,16 @@ td.number {
 }
 
 
+/* Styling for list item contents */
+li:has(h2), li:has(h3) {
+	margin-bottom: 1.5em;
+}
+li h2, li h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+
 /* Styling for unnumbered ordered lists */
 ol.unnumbered {
 	padding: 0;
