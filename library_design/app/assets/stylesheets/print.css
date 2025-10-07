@@ -1,17 +1,48 @@
-/* Strip out the header */
 header {
-	display: none;
+   display: none;
 }
-
-
-/* Unbranded table heads */
-thead td {
-	border: 1px #000 solid;
-	color: #000;
+ thead td {
+   border: 1px #000 solid;
+   color: #000;
 }
-
-
-/* Strip out the footer */
-footer {
-	display: none;
+ footer {
+   display: none;
+}
+ body {
+   color:black !important;
+   background-color:white;
+   width:20cm;
+   font-size:1.2rem;
+   padding:0.5cm;
+   font-family:system-ui;
+   line-height:1.4;
+   font-weight:normal;
+}
+ a {
+   text-decoration: none !important;
+   color:black !important;
+   word-wrap: break-word;
+}
+ a:after {
+   content: " (" attr(href) ")";
+   text-decoration: none !important;
+}
+ li {
+   margin-bottom:0.25cm;
+}
+ table thead tr th {
+   color: black;
+   border: 1pt solid black !important;
+}
+ h1 {
+   font-weight:normal;
+   font-size:2rem;
+}
+ h2 {
+   font-weight:normal;
+   font-size:1.8rem;
+}
+ h3 {
+   font-weight:normal;
+   font-size:1.6rem;
 }
