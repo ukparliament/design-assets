@@ -1,0 +1,36 @@
+<footer class="p-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="p-footer__wrapper">
+					<div class="p-footer__panel p-footer__panel-top">
+						<div class="p-footer__panel-top-col">
+							<h6 class="p-footer__heading">About this website</h6>
+							<ul class="p-footer__list">
+							<%= content_tag( 'li', link_to( 'About', meta_list_url ) ) %>
+							<%= content_tag( 'li', link_to( 'Contact us', 'mailto:RIIDMSMailbox@parliament.uk' ) ) %>
+							</ul>
+						</div>
+					</div>
+				
+					<div class="p-footer__panel">
+						<h6 class="p-footer__heading">Legal</h6>
+						<ul class="p-footer__list">
+							<%= content_tag( 'li', link_to( 'Open Parliament Licence', 'https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/' ) ) %>
+							<%= content_tag( 'li', link_to( 'Cookie Policy', meta_cookies_url ) ) %>
+							<%= content_tag( 'li', link_to( 'Privacy notice', 'https://commonslibrary.parliament.uk/privacy-policy/' ) ) %>
+							<%= content_tag( 'li', link_to( 'Accessibility statement', 'https://www.parliament.uk/site-information/accessibility/' ) ) %>
+						</ul>
+					</div>
+				
+					<div class="p-footer__panel">
+					</div>
+					
+					<div class="p-footer__panel p-footer__panel-bottom">
+						<p>&copy; UK Parliament <%= Date.today.year %></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
