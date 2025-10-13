@@ -1,0 +1,4 @@
+<%= tag( 'link', :rel => 'alternate', :href => @csv_url, :type => 'text/csv' ) if @csv_url %>
+<%= tag( 'link', :rel => 'alternate', :href => @rss_url, :type => 'application/rss+xml' ) if @rss_url %>
+
+<%= render :partial => 'library_design/head/rel_alternate/calendar_link', :collection => @calendar_links %>

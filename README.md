@@ -15,7 +15,7 @@ The design assets Ruby gem allows for customisation over the UK Parliament desig
 
 4. Update the version number at <code>/design-assets/library_design/lib/library_design/version.rb</code>.
 
-5. Update the Commons Library Heroku Google spreadsheet.
+5. Update the Commons Library Heroku Google spreadsheet if any changes have been made to Commons Library applications.
 
 6. Add and commit your changes to your branch.
 

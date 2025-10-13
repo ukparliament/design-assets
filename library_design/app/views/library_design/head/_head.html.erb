@@ -22,7 +22,6 @@
 <%= tag( 'link', :href => @previous_url, :rel => 'prev' ) if @previous_url %>
 <%= tag( 'link', :href => @next_url, :rel => 'next' ) if @next_url %>
 
-<%= tag( 'link', :rel => 'alternate', :href => @csv_url, :type => 'text/csv' ) if @csv_url %>
-<%= tag( 'link', :rel => 'alternate', :href => @rss_url, :type => 'application/rss+xml' ) if @rss_url %>
+<%= render 'library_design/head/rel_alternate/rel_alternate' %>
 
 <%= render :partial => 'library_design/head/json_ld/crumb', :object => @crumb %>

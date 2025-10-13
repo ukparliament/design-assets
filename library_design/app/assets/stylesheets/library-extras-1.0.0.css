@@ -4,7 +4,9 @@ nav#header-nav {
 }
 nav#header-nav a {
 	border-bottom: 3px #373151 solid;
+	display: inline-block;
 	margin-right: 10px;
+	padding: .5em 0 .2em 0;
 }
 nav#header-nav a:hover {
 	border-bottom-color: #fff;
@@ -32,7 +34,7 @@ h1 span[class="subhead"] {
 	display: inline-block;
 	text-decoration: none;
   	margin-right: 0.2rem;
-  	padding:0 0.2rem;
+  	padding: .5em 0 .2em 0;
 }
 .subnav a:hover {
 	border-bottom-color: #cbc9cd;
@@ -135,6 +137,16 @@ td.number {
 }
 
 
+/* Styling for list item contents */
+li:has(h2), li:has(h3) {
+	margin-bottom: 1.5em;
+}
+li h2, li h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+
 /* Styling for unnumbered ordered lists */
 ol.unnumbered {
 	padding: 0;
@@ -157,6 +169,12 @@ ol.unnumbered li {
 }
 
 
+/* Styling for sections */
+section {
+	margin-bottom: 1em;
+}
+
+
 /* Styling for feeds */
 #feeds a {
 	background-position: left;
@@ -173,3 +191,20 @@ ol.unnumbered li {
 	background-size: 1em;
 	padding-left: 1.2em;
 }
+
+
+/* Styling for the debug panel to show page title and description in development */
+div.debug {
+	background: yellow;
+	border: 3px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+div.debug tr {
+	background: transparent;
+}
+div.debug td {
+	border-color: #000;
+}
+
+
