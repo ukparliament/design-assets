@@ -208,3 +208,9 @@ div.debug td {
 }
 
 
+/* Styling to add vertical spacing between radio button items in radio button groups */
+.p-form__radio-group-spaced .p-form__radio-item {
+	margin-bottom: .8em;
+}
+
+
