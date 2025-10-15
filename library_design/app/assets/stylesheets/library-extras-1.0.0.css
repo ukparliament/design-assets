@@ -147,6 +147,12 @@ li h2, li h3 {
 }
 
 
+/* Styling for simple link lists */
+ol.link-list li, ul.link-list li {
+	margin-bottom: 1em;
+}
+
+
 /* Styling for unnumbered ordered lists */
 ol.unnumbered {
 	padding: 0;
