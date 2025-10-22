@@ -19,13 +19,13 @@
 		  		{
 	        		"@type": "ListItem",
 	        		"position": 3,
-	        		"name": <%= $SITE_TITLE %>
+	        		"name": "<%= $SITE_TITLE %>"
 	      	  	}
 			<% else -%>
 				{
 	        		"@type": "ListItem",
 	        		"position": 3,
-	        		"name": <%= $SITE_TITLE %>
+	        		"name": "<%= $SITE_TITLE %>",
 				 	"item": "<%= home_url %>"
 	      	  	}
 				<%= render :partial => 'library_design/head/json_ld/crumb_item', :collection => crumb %>
