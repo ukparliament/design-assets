@@ -21,11 +21,14 @@
 
 		<div class="row">
 			<div class="col-12 p-footer__panel portcullis p-footer__panel-bottom">
-        <p>&copy; UK Parliament <%= Date.today.year %></p>
-        <svg class="p-footer__logo">
-          <use xlink:href="#p-icon__portcullis"></use>
-        </svg>
-      </div>
+        		<p>&copy; UK Parliament <%= Date.today.year %></p>
+
+				<% if $TOGGLE_PORTCULLIS == 'on' -%>
+			        <svg class="p-footer__logo">
+			          <use xlink:href="#p-icon__portcullis"></use>
+			        </svg>
+				<% end -%>
+			</div>
 		</div>
 	</div>
 </footer>
