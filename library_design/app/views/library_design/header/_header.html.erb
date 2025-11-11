@@ -4,6 +4,9 @@
 	<div class="product-header">
 		<div class="container">
 			<%= link_to( $SITE_TITLE, home_url, class: 'title' ) %>
+			<% if $HAS_LIBRARIAN_MODE and $HAS_LIBRARIAN_MODE == 'true' -%>
+				<%= content_tag( 'span', 'Librarian mode', :class => 'uk-parliament-procedure-browser-librarian-only', :id => 'mode' ) %>
+			<% end -%>
 		</div>
 	</div>
 	<nav class="container" id="header-nav">
