@@ -6,7 +6,9 @@ body main .uk-parliament-procedure-browser-librarian-only {
 	display: inline-block !important;
 }
 
+
 /* Places a yellow stripe down the left of the page to indicate librarian mode */
 body.uk-parliament-procedure-browser {
-	border-left: 1em solid yellow;
+	background: yellow;
+	padding-left: 1em;
 }
