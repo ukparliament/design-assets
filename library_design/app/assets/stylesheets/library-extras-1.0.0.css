@@ -145,6 +145,9 @@ li h2, li h3 {
 	font-size: 1.2em;
 	font-weight: normal;
 }
+li * {
+	margin-bottom: .3em;
+}
 
 
 /* Styling for simple link lists */
