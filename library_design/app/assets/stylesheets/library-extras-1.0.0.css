@@ -222,19 +222,30 @@ div.debug td {
 	margin-bottom: .8em;
 }
 
+
 /* Override footer stuff to handle two columns rather than three */
 div.p-footer__panel_override:last-child {
 	padding-bottom: 30px;
 }
+
 
 /* Second column usually has a right hand vertical divider, make it background colour */
 div.p-footer__panel:last-child:after {
   background-color: #373151;
 }
 
+
 /* Override with extra portcullis class, the width */
 .p-footer__panel.portcullis:nth-child(1) {
   width: 100%;
 }
 
+
+/* Styling for maximum width of an h2 in a list item */
+/* This overrides a style in the PDS design system constraining max width of an h2 to 75% */
+@media (min-width: 992px) {
+  li h2 {
+    max-width: 100%;
+  }
+}
 
