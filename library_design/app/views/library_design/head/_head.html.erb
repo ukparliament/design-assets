@@ -19,6 +19,8 @@
 <%= render 'library_design/head/library_design_stylesheets' %>
 <%= stylesheet_link_tag "application" %>
 
+<%= tag( 'link', :href => @canonical_url, :rel => 'canonical' ) if @canonical_url %>
+
 <%= tag( 'link', :href => @previous_url, :rel => 'prev' ) if @previous_url %>
 <%= tag( 'link', :href => @next_url, :rel => 'next' ) if @next_url %>
 
