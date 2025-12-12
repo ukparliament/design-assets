@@ -1,6 +1,6 @@
 <footer class="p-footer">
 	<div class="container">
-		<div class="row">
+		<div class="row footer-row">
 			<div class="col-6 p-footer__panel">
 				<h6 class="p-footer__heading">About</h6>
 				<ul class="p-footer__list">
@@ -19,14 +19,14 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row footer-row">
 			<div class="col-12 p-footer__panel portcullis p-footer__panel-bottom">
-        		<p>&copy; UK Parliament <%= Date.today.year %></p>
+        <p>&copy; UK Parliament <%= Date.today.year %></p>
 
 				<% if $TOGGLE_PORTCULLIS == 'on' -%>
-			        <svg class="p-footer__logo">
-			          <use xlink:href="#p-icon__portcullis"></use>
-			        </svg>
+			    <svg class="p-footer__logo">
+			      <use xlink:href="#p-icon__portcullis"></use>
+			    </svg>
 				<% end -%>
 			</div>
 		</div>
