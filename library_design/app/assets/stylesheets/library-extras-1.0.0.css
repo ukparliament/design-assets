@@ -240,6 +240,11 @@ div.p-footer__panel:last-child:after {
   width: 100%;
 }
 
+/* We don't want the footer row to lose it's margins from the container div */
+.row.footer-row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /* Styling for maximum width of an h2 in a list item */
 /* This overrides a style in the PDS design system constraining max width of an h2 to 75% */
