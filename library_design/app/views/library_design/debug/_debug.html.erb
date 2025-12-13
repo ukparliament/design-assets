@@ -13,23 +13,24 @@
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'Canonical URL' ) %>
-					<%= content_tag( 'td', link_to( @canonical_url, @canonical_url ) ) %>
+					<%= content_tag( 'td', link_to( @canonical_url, @canonical_url ) if @canonical_url ) %>
 				</tr>
+				
 				<tr>
 					<%= content_tag( 'td', 'Previous URL' ) %>
-					<%= content_tag( 'td', link_to( @previous_url, @previous_url ) ) %>
+					<%= content_tag( 'td', link_to( @previous_url, @previous_url ) if @previous_url ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'Next URL' ) %>
-					<%= content_tag( 'td', link_to( @next_url, @next_url ) ) %>
+					<%= content_tag( 'td', link_to( @next_url, @next_url ) if @next_url ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'CSV URL' ) %>
-					<%= content_tag( 'td', link_to( @csv_url, @csv_url ) ) %>
+					<%= content_tag( 'td', link_to( @csv_url, @csv_url ) if @csv_url ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'RSS URL' ) %>
-					<%= content_tag( 'td', link_to( @rss_url, @rss_url ) ) %>
+					<%= content_tag( 'td', link_to( @rss_url, @rss_url ) if @rss_url ) %>
 				</tr>
 			</tbody>
 		</table>
