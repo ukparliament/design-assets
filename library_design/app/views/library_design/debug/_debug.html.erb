@@ -13,25 +13,30 @@
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'Canonical URL' ) %>
-					<%= content_tag( 'td', @canonical_url ) %>
+					<%= content_tag( 'td', link_to( @canonical_url, @canonical_url ) ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'Previous URL' ) %>
-					<%= content_tag( 'td', @previous_url ) %>
+					<%= content_tag( 'td', link_to( @previous_url, @previous_url ) ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'Next URL' ) %>
-					<%= content_tag( 'td', @next_url ) %>
+					<%= content_tag( 'td', link_to( @next_url, @next_url ) ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'CSV URL' ) %>
-					<%= content_tag( 'td', @csv_url ) %>
+					<%= content_tag( 'td', link_to( @csv_url, @csv_url ) ) %>
 				</tr>
 				<tr>
 					<%= content_tag( 'td', 'RSS URL' ) %>
-					<%= content_tag( 'td', @rss_url ) %>
+					<%= content_tag( 'td', link_to( @rss_url, @rss_url ) ) %>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 <% end -%>
+
+
+
+
+
