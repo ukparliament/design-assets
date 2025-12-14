@@ -20,7 +20,5 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
 
     resource '*.woff2', headers: :any, methods: [:get]
     resource '*.js', headers: :any, methods: [:get]
-
-    pp "In the gem one"
   end
 end
