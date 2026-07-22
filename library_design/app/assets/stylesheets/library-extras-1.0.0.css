@@ -200,6 +200,11 @@ section {
 	background-size: 1em;
 	padding-left: 1.2em;
 }
+#feeds a.dot {
+	background-image: url('/dot.png');
+	background-size: 1em;
+	padding-left: 1.2em;
+}
 
 
 /* Styling for the debug panel to show page title and description in development */
