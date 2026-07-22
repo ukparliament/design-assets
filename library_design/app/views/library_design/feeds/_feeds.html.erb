@@ -2,5 +2,6 @@
 	<p id="feeds">
 		<%= link_to( "Subscribe to #{content_tag( 'abbr', 'RSS', :title => 'Really Simple Syndication' )}".html_safe, @rss_url, :class => 'rss' ) if @rss_url %>
 		<%= link_to( "Download #{content_tag( 'abbr', 'CSV', :title => 'Comma-separated values' )}".html_safe, @csv_url, :class => 'csv' ) if @csv_url %>
+		<%= link_to( "Download .dot file", @dot_url, :class => 'dot' ) if @dot_url %>
 	</p>
 <% end -%>
